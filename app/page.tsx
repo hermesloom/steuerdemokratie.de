@@ -13,15 +13,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Separator } from "@/components/ui/separator";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import {
-  InfoIcon,
-  BookOpen,
-  FileText,
-  Users,
-  Globe,
-  Landmark,
-  BookmarkIcon,
-} from "lucide-react";
+import { BookOpen, FileText, Users, Landmark } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PolisEmbed } from "@/components/PolisEmbed";
