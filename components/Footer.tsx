@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Github } from "lucide-react";
 
 export function Footer() {
   return (
@@ -34,6 +35,17 @@ export function Footer() {
                   Satzung
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="https://github.com/hermesloom/steuerdemokratie.de"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 hover:underline"
+                >
+                  <Github className="h-4 w-4" />
+                  <span>Quellcode auf GitHub</span>
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
@@ -57,8 +69,8 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center">
-          <p>
+        <div className="mt-6 pt-6 border-t border-primary-foreground/20 text-center">
+          <p className="text-sm">
             © {new Date().getFullYear()} Partei der Steuerverteilgerechtigkeit.
             Alle Rechte vorbehalten.
           </p>
